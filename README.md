@@ -1,16 +1,30 @@
-# React + Vite
+# Tech 100 Stock Tracker 📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Real-time dashboard tracking the top 100 tech stocks with interactive charts, search, filtering, and sorting.
 
-Currently, two official plugins are available:
+**Live:** [sanjays2402.github.io/tech100-tracker](https://sanjays2402.github.io/tech100-tracker/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Grid View** — 100 tech stocks with real-time prices, color-coded by performance
+- **Individual Stock Pages** — Interactive charts with 1D/5D/1M/3M/6M/1Y/5Y ranges
+- **Search & Filter** — Find stocks instantly, filter gainers/losers
+- **Sort** — By market cap, price, change %, or name
+- **Auto-refresh** — Data updates every 60 seconds
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19 + Vite
+- Tailwind CSS v4
+- Framer Motion
+- React Router
+- Yahoo Finance API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+Built by Sanjay 🥔
